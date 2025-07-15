@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      const offers = [
+        "https://track.cpabuild.com/example_offer1",
+        "https://ogads.com/example_offer2",
+        "https://adgem.com/example_offer3"
+      ];
+      window.onload = () => {
+        const chosen = offers[Math.floor(Math.random() * offers.length)];
+        window.location.href = chosen;
+      };
+    </script>
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+  </body>
+</html>
